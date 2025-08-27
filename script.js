@@ -1,3 +1,7 @@
+// Page Load Animation
+window.addEventListener("load", () => {
+  document.body.classList.add("loaded");
+});
 // Typing Effect
 const typing = document.querySelector('.typing');
 const words = ["Web Developer", "Designer", "Problem Solver"];
